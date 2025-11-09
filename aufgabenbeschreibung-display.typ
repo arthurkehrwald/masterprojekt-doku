@@ -22,7 +22,7 @@ Die Herausforderung liegt in der Kombination einer autostereoskopischen Darstell
 
 Wie eine Rasterlinsenoptik hat auch eine statische Parallaxbarriere einen sogenannten "Sweetspot". Bei Betrachtungspunkten außerhalb dieses Bereichs kommt es zu Fehlern in der Kanaltrennung. Um an beliebigen Standpunkten eine korrekte Darstellung zu ermöglichen, soll die Parallaxbarriere daher auf einem LCD dargestellt werden, sodass sie dynamisch an den aktuellen Betrachtungspunkt angepasst werden kann. Die daraus resultierende Einschränkung auf einen gleichzeitigen Betrachter wird dabei in Kauf genommen.
 
-Das Bild wird auf der zweiten Displayschicht hinter der Parallaxbarriere auf einem zweiten LCD oder einem transparenten OLED-Panel angezeigt. Als Alternative zur Parallaxbarriere lässt sich ohne Veränderungen am Versuchsaufbau auch mit Lichtfeldsynthese experimentieren (Computational Display).
+Das Bild wird auf der zweiten Displayschicht hinter der Parallaxbarriere auf einem weiteren LCD oder einem transparenten OLED-Panel angezeigt. Als Alternative zur Parallaxbarriere lässt sich ohne Veränderungen am Versuchsaufbau auch mit Lichtfeldsynthese experimentieren (Computational Display).
 
 == Komplikationen
 
@@ -36,7 +36,7 @@ Bei einer Umsetzung werden voraussichtlich folgende Probleme auftreten:
 
 === Literaturrecherche
 
-Zunächst sollen bestehende Forschungsarbeiten, aber auch kommerzielle Produkte analysiert und verglichen werden um prüfen, ob es schon Displays mit den gewünschten Eigenschaften gibt, welche Lösungen für die im ersten Abschnitt beschriebenen Teilprobleme existieren, und wie sie am besten kombiniert werden können.
+Zunächst sollen bestehende Forschungsarbeiten, aber auch kommerzielle Produkte analysiert und verglichen werden um prüfen, ob es schon Displays mit den gewünschten Eigenschaften gibt, herauszufinden, welche Lösungen für die im ersten Abschnitt beschriebenen Teilprobleme existieren, um diese dann bestmöglich zu kombinieren.
 
 === Konstruktion und Prototypenbau
 
@@ -53,7 +53,7 @@ Zunächst sollen bestehende Forschungsarbeiten, aber auch kommerzielle Produkte 
 Ein Prototyp wird in einer CAD-Software konstruiert und im Maker Space der TH Köln gebaut. Die strukturellen Elemente sind Acrylglasplatten und Extrusionsprofile aus Aluminium. Der Prototyp besteht aus folgenden Baugruppen:
 
 - _Display-Baugruppe_, in der die beiden Displayschichten mitsamt Ansteuerungselektronik und Spannungsversorgung untergebracht sind.
-- _Rechner-Baugruppe_ mit einem einem Computer, auf dem unsere Software läuft, und einem gewöhnlichen Bildschirm, der zu ihrer Konfiguration dient.
+- _Rechner-Baugruppe_ mit einem Computer, auf dem unsere Software läuft, und einem gewöhnlichen Bildschirm, der zu ihrer Konfiguration dient.
 - _Schaukasten_, in dem sich eine beleuchtete Demoszene mit einem kleinen Roboterarm befindet.
 - _Aufstellrahmen_, an dem allen anderen Module befestigt und aufrecht hingestellt werden können.
 
